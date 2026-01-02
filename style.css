@@ -68,8 +68,25 @@ section h2{
 /* Services / Programs */
 .services{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(380px,1fr))
-    ;gap:1rem;
+    grid-template-columns:repeat(auto-fit,minmax(380px,1fr));
+    gap:1rem;
+  flex-wrap:wrap; /* Allows cards to wrap on small screens */
+  width: 100%;
+  min-height: 200px;
+  font-family: 'Arial Narrow', sans-serif;
+  margin:10;
+  padding: 1;
+  box-sizing: border-box;
+
+
+
+
+
+
+
+
+
+
 }
 .service-card{
     background:#f4f4f4;
@@ -236,20 +253,6 @@ footer{background:#111;color:#fff;text-align:center;padding:1rem;}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
 
 }
@@ -312,6 +315,13 @@ footer{background:#111;color:#fff;text-align:center;padding:1rem;}
             width: 100%;
             gap: 100px;
             align-items: center;
+            display: flex;
+            width: 100%;
+            min-height: 200px;
+            font-family: 'Arial Narrow', sans-serif;
+            margin:10;
+            padding: 1;
+            box-sizing: border-box;
         }
 
         /* Image Side */
