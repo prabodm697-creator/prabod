@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LDF</title>
+<link rel="website icon" type="png" href="p13.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header / Navigation -->
+<header>
+    <nav>
+        <div class="logo">LION'S DEN </div>
+        <ul id="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#transform">Transform</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#personal-training">Personal Training</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="hero">
+    <div>
+        <h1>Get Fit, Stay Strong</h1>
+        <p>Join our gym and transform your body today!</p>
+        <a href="#contact">Join Now</a>
+    </div>
+</section>
+
+
+
+<section class="fitness-section">
+  <div class="card black">
+    <div class="content">
+      <img src="ico1.png" alt="Workout" class="icon">
+      <div class="text-group">
+        <h2><div class="txt">Workout</div></h2>
+        <p>Say goodbye to monotonous routines and hello to a workout program that keeps you engaged and excited.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card red">
+    <div class="content">
+      <img src="ico2.png" alt="Nutrition" class="icon">
+      <div class="text-group">
+        <h2>Nutrition</h2>
+        <p>Fuel your body for optimal performance and vitality with our nutrition program.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card black">
+    <div class="content">
+      <img src="ico3.png" alt="Progression" class="icon">
+      <div class="text-group">
+        <h2><div class="txt">Progression</div></h2>
+        <p>Ignite your fitness journey and experience unstoppable progress with our specialized workout progression program.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- About Section -->
+<section class="about" id="about">
+    <img src="p13.png" alt="Gym">
+    <div class="content">
+        
+        <p>We are dedicated to helping you achieve your fitness goals. Our expert trainers and modern equipment ensure the best results.</p>
+    </div>
+</section>
+
+<!-- Services / Programs -->
+<section id="services">
+    <h2>Our services</h2>
+
+     <div class="services">
+
+        <div class="service-card">
+            <img src="p18.jpg">
+        </div>
+
+        <div class="service-card">
+            <img src="p16.png">
+        </div>
+
+
+        <div class="service-card">
+            <img src="p15.jpg">
+        </div>
+
+        <div class="service-card">
+            <img src="p21.png">
+        </div>
+
+                <div class="service-card">
+            <img src="p19.png">
+        </div>
+
+                <div class="service-card">
+            <img src="p20.jpg">
+        </div>
+
+    </div>
+</section>
+
+<!-- Client Transformation Slider -->
+<section id="transform">
+    <h2>Client Transformations</h2>
+    <div class="slider-container">
+        <div class="slider" id="slider">
+            <img src="client1.png" alt="Transformation 1">
+            <img src="client2.png" alt="Transformation 1">
+            <img src="client3.png" alt="Transformation 1">
+            <img src="client5.jpg" alt="Transformation 1">
+            <img src="client6.png" alt="Transformation 1">
+            <img src="client7.png" alt="Transformation 1">
+        </div>
+        <div class="slider-buttons">
+            <button id="prev">Prev</button>
+            <button id="next">Next</button>
+        </div>
+    </div>
+</section>
+
+<!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+</div>
+
+<!-- Pricing / Packages -->
+<section id="pricing">
+    <h2>Pricing Plans</h2>
+
+
+    <div class="pricing">
+        <div class="pricing-card">
+            <h3> MEN</h3>
+            <p>19+  (admition RS1000) Rs3000/monthly</p>
+            <p>19-   Rs2500 only/monthly</p>
+        </div>
+
+        <div class="pricing-card">
+            <h3>WOMEN</h3>
+            <p>Rs2500 only / month</p>
+        </div>
+
+       
+    </div>
+
+<section class="product-section">
+    <div class="product-image">
+        <img src="shirt.png" alt="Lions Den Gym T-Shirt">
+    </div>
+
+    <div class="product-info">
+        <div class="yellow-bar"></div>
+        <h1>GRAB YOUR<br>ORDER NOW</h1>
+        
+
+
+        <ul class="feature-list">
+            <li>Soft & breathable fabric</li>
+            <li>Long-lasting print quality</li>
+            <li>Comfortable fit for all-day wear</li>
+        </ul>
+
+        <p style="margin-bottom: 25px;">
+            🛒 **Order now** and get your favorite design delivered straight to your door!
+        </p>
+
+        <button class="buy-btn" onclick="buyTshirt()">Buy T-Shirt via WhatsApp</button>
+    </div>
+</section>
+
+
+
+
+
+
+<!-- Personal Training Section -->
+<section id="personal-training">
+    <h2>Personal Training Packages</h2>
+    <div class="pricing-container">
+
+  <!-- BASIC -->
+  <div class="price-card">
+    <div class="package-no">PACKAGE NO. 4</div>
+    <img src="p9.jpg" class="package-img" alt="Basic Package">
+
+
+    <h3>RS.3000 <span>/month</span></h3>
+
+    <ul>
+      <li>1 Month Service</li>
+      <li>Meal Plan or Workout Plan</li>
+      <li>Custom Plan Based on Goal</li>
+      <li>Supplement Guidance</li>
+      <li>48–72 Hour WhatsApp Support</li>
+    </ul>
+
+    <button onclick="sendWhatsApp('Basic', 'RS.3000/month')">
+      Get Started
+    </button>
+  </div>
+
+  <!-- BRONZE -->
+  <div class="price-card highlight">
+    <div class="package-no">PACKAGE NO. 3</div>
+    <img src="p10.jpg" class="package-img" alt="Bronze Package">
+
+
+    <h3>RS.5000 <span>/month</span></h3>
+
+    <ul>
+      <li>1 Month Personal Training</li>
+      <li>Personalized Meal & Workout Plan</li>
+      <li>Monthly Progress Check-in</li>
+      <li>Supplement Guidance</li>
+      <li>72 Hour WhatsApp Support</li>
+    </ul>
+
+    <button onclick="sendWhatsApp('Bronze', 'RS.5000/month')">
+      Get Started
+    </button>
+  </div>
+
+  <!-- GOLD -->
+  <div class="price-card">
+    <div class="package-no">PACKAGE NO. 2</div>
+    <img src="p12.jpg" class="package-img" alt="Gold Package">
+
+
+    <h3>RS.7500 <span>/month</span></h3>
+
+    <ul>
+      <li>1 Month Personal Training</li>
+      <li>Personalized Meal & Training Plan</li>
+      <li>Progress Check-ins (Every 2 Weeks)</li>
+      <li>Supplement Guidance</li>
+      <li>48–72 Hour WhatsApp Support</li>
+    </ul>
+
+    <button onclick="sendWhatsApp('Gold', 'RS.7500/month')">
+      Get Started
+    </button>
+  </div>
+
+  <!-- PREMIUM -->
+  <div class="price-card">
+    <div class="package-no">PACKAGE NO. 1</div>
+    <img src="p11.jpg" class="package-img" alt="Premium Package">
+
+    <h3>RS.9999 <span>/month</span></h3>
+
+    <ul>
+      <li>1 Month Personal Training</li>
+      <li>Custom Meal & Workout Plan</li>
+      <li>Weekly Progress Check-ins</li>
+      <li>High Attention Coaching</li>
+      <li>24–48 Hour WhatsApp Support</li>
+    </ul>
+
+    <button onclick="sendWhatsApp('Premium', 'RS.9999/month')">
+      Get Started
+    </button>
+  </div>
+
+</div>
+    </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Social Media </h2>
+    <div class="social">
+        <a href="https://youtube.com/@LionsDenFitnessCenter?si=8HeA8gY2kLXcefIW" target="_blank"><img src="yt.avif" width="50px" height="50px"></a>
+        <a href="https://www.instagram.com/ldf.itness_alawwa?igsh=MXZ4bjZzZGc2M3ZrZA%3D%3D&utm_source=qr" target="_blank"><img src="insta.avif" width="50px" height="50px"></a>
+        <a href="https://www.facebook.com/LionsDenFitnessAlawwa?mibextid=LQQJ4d" target="_blank"><img src="fb.avif" width="47px" height="46px"></a>
+        
+    </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+
+
+    <p class="copyright-text">
+      © All rights reserved. design By <span class="name">PRABOD MADUSANKA</span>
+    </p>
+
+        <a href="https://www.instagram.com/ldf.itness_alawwa?igsh=MXZ4bjZzZGc2M3ZrZA%3D%3D&utm_source=qr" class="insta-link" target="_blank">
+      <img src="insta1.png" alt="Instagram" class="insta-icon">
+    </a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
